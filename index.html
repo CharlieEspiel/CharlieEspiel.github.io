@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dentist Website</title>
+    <title>CML Dental Clinic</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -133,33 +133,44 @@
 
     <!-- services section ends -->
 
-    <!-- process section starts  -->
+    <!-- profile section starts  -->
 
-    <section class="process">
-      <h1 class="heading">work process</h1>
+    <section class="profile">
+      <h1 class="heading">OUR DENTISTS</h1>
 
       <div class="box-container container">
-        <div class="box">
-          <img src="images/process-1.png" alt="" />
-          <h3>Cosmetic Dentistry</h3>
-          <p>Cosmetic dentistry includes teeth whitening, dental implants, dental crowns, and teeth shaping.</p>
-        </div>
-
-        <div class="box">
-          <img src="images/process-2.png" alt="" />
-          <h3>Pediatric Dentistry</h3>
-          <p>Padiatric dentistry include stainless steel crowns, tooth-colored fillings, dental cleanings, and cavities.</p>
-        </div>
-
-        <div class="box">
-          <img src="images/process-3.png" alt="" />
-          <h3>Dental Implants</h3>
-          <p>Dental implants are artificial tooth roots that are surgically placed into the jawbone.</p>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="fade-up-right">
+              <img src="images/dentist1.jpg" alt="" />
+              <h3>Dr. Cirlon M. Lopera</h3>
+              <p>Cosmetic dentistry includes teeth whitening, dental implants, dental crowns, and teeth shaping.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Qualifications: DMD</li>
+                <li class="list-group-item">Experience: 8 years</li>
+                <li class="list-group-item">Areas of expertise: Pediatric Dentistry, Orthodontics</li>
+                <li class="list-group-item">Specializations: Braces, Invisalign</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="fade-up-left">
+              <img src="images/dentist2.jpg" alt="" />
+              <h3>Dr. Cirlin M. Lopera</h3>
+              <p>Padiatric dentistry include stainless steel crowns, tooth-colored fillings, dental cleanings, and cavities.</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Qualifications: DMD</li>
+                <li class="list-group-item">Experience: 30 years</li>
+                <li class="list-group-item">Areas of expertise: Pediatric Dentistry, Orthodontics</li>
+                <li class="list-group-item">Specializations: Braces, Invisalign</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- process section ends -->
+    <!-- profile section ends -->
 
     <!-- reviews section starts  -->
 
@@ -218,14 +229,7 @@
     <section class="contact" id="contact">
       <h1 class="heading">make appointment</h1>
 
-      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <!--<?php
-         if(isset($message)){
-            foreach($message as $message){
-               echo '<p class="message">'.$message.'</p>';
-            }
-         }
-      ?>-->
+      <form action="" method="post">
         <span>Enter your name :</span>
         <input type="text" name="name" placeholder="Enter your name" class="box" required />
         <span>Enter your email :</span>

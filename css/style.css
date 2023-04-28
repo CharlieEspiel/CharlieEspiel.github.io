@@ -191,34 +191,41 @@ section {
   line-height: 2;
 }
 
-.process .box-container {
+.profile {
+  background: url(../images/home-bg2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
-.process .box-container .box {
-  background-color: var(--green);
+.profile .box-container .box {
+  background-color: var(--white);
   padding: 2rem;
   border-radius: 0.5rem;
   text-align: center;
   box-shadow: var(--box-shadow);
 }
 
-.process .box-container .box img {
+.profile .box-container .box img {
+  border-radius: 50%;
   height: 20rem;
   margin: 1rem 0;
 }
 
-.process .box-container .box h3 {
+.profile .box-container .box h3 {
   font-size: 2rem;
-  color: var(--white);
+  color: var(--green);
   margin: 1.5rem 0;
 }
 
-.process .box-container .box p {
+.profile .box-container .box p {
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--light-color);
   line-height: 2;
 }
 
