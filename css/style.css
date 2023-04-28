@@ -89,6 +89,10 @@ section {
   color: var(--green);
 }
 
+.logo img {
+  width: 50px;
+}
+
 .header .nav a {
   margin: 0 1rem;
   font-size: 1.7rem;
@@ -107,7 +111,7 @@ section {
 }
 
 .home {
-  background: url(../images/home-bg2.jpg) no-repeat;
+  background: url(../images/home-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -431,33 +435,5 @@ section {
 
   .heading {
     font-size: 3rem;
-  }
-}
-
-.custom-shape-divider-bottom-1682686712 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1682686712 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 87px;
-}
-
-.custom-shape-divider-bottom-1682686712 .shape-fill {
-  fill: #ffffff;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-bottom-1682686712 svg {
-    width: calc(118% + 1.3px);
-    height: 92px;
   }
 }
